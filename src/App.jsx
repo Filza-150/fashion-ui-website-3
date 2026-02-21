@@ -15,19 +15,25 @@ function App() {
 
   return (
     <>
+    <div className='container mx-auto'>
       <Navbar/>
-      <div className='hidden lg:block'>
+      <div className='hidden lg:block mb-3'>
 
       <SecondaryNavbar/>
       </div>
       <Hero/>
+      <div className='mt-13 mb-12'>
       <Collection/>
+      </div>
       <EverydayLooks/>
       <Categories/>
       <DiscountBanner/>
+      <div className='mt-8 mb-10'>
       <ComfortStyleSection/>
+      </div>
       <WinterSaleBanner/>
       <Footer/>
+      </div>
     </>
   )
 }

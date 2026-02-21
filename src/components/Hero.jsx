@@ -34,7 +34,7 @@ const Hero = () => {
         style={styles.left}
         className="bg-[#E5F0EC] flex flex-col justify-center px-5 items-start rounded-2xl w-full lg:w-[50%] "
       >
-        <span style={styles.tag}>— FASHION STORE</span>
+        <span style={styles.tag} className="lg:pt-0 md:pt-10">— FASHION STORE</span>
 
         <h1
           style={styles.heading}
